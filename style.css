@@ -1,0 +1,61 @@
+#main-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 600px;
+    box-shadow: 10px 10px 10px 10px grey;
+    padding: 0;
+    overflow: hidden;
+}
+#runner{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 40px;
+    height: 50px;
+}
+#scroller{
+    width: 45000px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: green;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+.tube {
+    font-size: 40px;
+    position: relative;
+    bottom: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.goomba {
+    font-size: 40px;
+    position: relative;
+    bottom: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.bill{
+    height: 40px;
+    position: relative;
+    bottom: 150px;
+}
+
+#aniButton{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 40px;
+}
