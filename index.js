@@ -97,7 +97,7 @@ function dead2(){
 
 function dead(){
 
-    document.querySelector("#runner").src = "mario_dead.png";
+    document.querySelector("#runner").src = "./mario_dead.png";
     setTimeout(() => {
         const deadUp = setInterval(() => {
 
@@ -255,7 +255,7 @@ let counter = 0
 
 function jump(){
 
-    document.querySelector("#runner").src = "mario_jump.png"
+    document.querySelector("#runner").src = "./mario_jump.png"
     runner.style.width = "50px"
 
     var jumpSound = document.querySelector("#audio")
@@ -317,7 +317,7 @@ function jump(){
             cancelAnimationFrame(jump);
             deathSound.play();
             dead();
-            document.querySelector("#runner").src = "mario_run.png";
+            document.querySelector("#runner").src = "./mario_run.png";
             runner.style.width = "40px";
             alive = false;
             clearInterval(countUp);
@@ -394,7 +394,7 @@ function fall(){
             cancelAnimationFrame(fall);
             deathSound.play();
             dead();
-            document.querySelector("#runner").src = "mario_run.png";
+            document.querySelector("#runner").src = "./mario_run.png";
             runner.style.width = "40px";
             alive = false;
             clearInterval(countUp);
@@ -406,7 +406,7 @@ function fall(){
     if(counter == 20){
         cancelAnimationFrame(fall)
         counter = 0
-        document.querySelector("#runner").src = "mario_run.png"
+        document.querySelector("#runner").src = "./mario_run.png"
         runner.style.width = "40px"
         
         return;

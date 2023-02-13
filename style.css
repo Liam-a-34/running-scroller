@@ -9,7 +9,7 @@
     box-shadow: 10px 10px 10px 10px grey;
     padding: 0;
     overflow: hidden;
-    background-image: url("mario_sky.png");
+    background-image: url("./mario_sky.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -28,7 +28,7 @@
     height: 50px;
     position: absolute;
     bottom: 0;
-    background-image: url("mario_floor.png");
+    background-image: url("./mario_floor.png");
 }
 
 .tube {
@@ -63,7 +63,7 @@
     height: 90px;
     border: none;
     background-color: transparent;
-    background-image: url("pixel_start.png");
+    background-image: url("./pixel_start.png");
     background-size: cover;
 }
 
@@ -100,7 +100,7 @@
 }
 
 #restartBtn{
-    background-image: url("restart_button.png");
+    background-image: url("./restart_button.png");
     width: 210px;
     height: 60px;
     background-size: cover;
