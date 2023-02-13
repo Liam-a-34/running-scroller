@@ -9,6 +9,9 @@
     box-shadow: 10px 10px 10px 10px grey;
     padding: 0;
     overflow: hidden;
+    background-image: url("/mario_sky.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #runner{
     position: absolute;
@@ -18,14 +21,14 @@
     height: 50px;
 }
 #scroller{
-    width: 45000px;
+    width: 65000px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    background-color: green;
     height: 50px;
     position: absolute;
     bottom: 0;
+    background-image: url("/mario_floor.png");
 }
 
 .tube {
@@ -52,10 +55,185 @@
 
 #aniButton{
     position: absolute;
-    top: 85%;
+    top:830px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 200px;
-    height: 40px;
+    width: 270px;
+    height: 90px;
+    border: none;
+    background-color: transparent;
+    background-image: url("/pixel_start.png");
+    background-size: cover;
 }
+
+#aniButton:hover{
+    cursor: pointer;
+}
+
+#deathPlaque{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+    line-height: 15px;
+    display: none;
+}
+
+#deathPlaque h2{
+    font-size: 60px;
+    color: red;
+    font-family: "Press Start 2P", cursive;
+}
+
+#deathPlaque h3{
+    font-size: 20px;
+    font-family: "Press Start 2P", cursive;
+}
+
+#deathPlaque h4{
+    font-size: 15px;
+    font-family: "Press Start 2P", cursive;
+}
+
+#restartBtn{
+    background-image: url("/restart_button.png");
+    width: 210px;
+    height: 60px;
+    background-size: cover;
+}
+
+#restartBtn:hover{
+    cursor: pointer
+}
+
+#bill0{
+    left: 300px
+}
+
+#bill1 {
+    left: 222px;
+  }
+  
+  #bill2 {
+    right: 150px;
+  }
+  
+  #bill3 {
+    left: 200px;
+  }
+  
+  #bill4 {
+    right: 90px;
+  }
+  
+  #bill5 {
+    right: 137px;
+  }
+  
+  #bill6 {
+    right: 65px;
+  }
+  
+  #bill7 {
+    left: 41px;
+  }
+  
+  #bill8 {
+    right: 320px;
+  }
+  
+  #bill9 {
+    left: 300px;
+  }
+  
+  #bill10 {
+    left: 280px;
+  }
+  
+  #bill11 {
+    left: 231px;
+  }
+  
+  #bill12 {
+    right: 187px;
+  }
+  
+  #bill13 {
+    left: 150px;
+  }
+  
+  #bill14 {
+    left: 246px;
+  }
+  
+  #bill15 {
+    left: 290px;
+  }
+  
+  #bill16 {
+    right: 210px;
+  }
+  
+  #bill17 {
+    left: 168px;
+  }
+  
+  #bill18 {
+    right: 178px;
+  }
+  
+  #bill19 {
+    left: 206px;
+  }
+  
+  #bill20 {
+    right: 273px;
+  }
+  
+  #bill21 {
+    right: 194px;
+  }
+  
+  #bill22 {
+    right: 69px;
+  }
+  
+  #bill23 {
+    left: 100px;
+  }
+  
+  #bill24 {
+    right: 130px;
+  }
+  
+  #bill25 {
+    left: 301px;
+  }
+  
+  #bill26 {
+    right: 260px;
+  }
+
+  #bill27 {
+    left: 291px;
+  }
+
+  #bill28 {
+    left: 158px;
+  }
+
+  #bill29 {
+    right: 172px;
+  }
+
+  #bill30 {
+    right: 241px;
+  }
+
+  #bill31 {
+    left: 280px;
+  }
