@@ -423,7 +423,7 @@ scrollBtn.addEventListener("click", () => {
 document.querySelector("#restartBtn").addEventListener("click", () => {
 
     scrollBtn.disabled = false
-    window.location.replace("./index.html")
+    window.location.replace("/")
 
 })
 
