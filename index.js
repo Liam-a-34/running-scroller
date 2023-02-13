@@ -420,13 +420,6 @@ scrollBtn.addEventListener("click", () => {
     interval()
 })
 
-document.querySelector("#restartBtn").addEventListener("click", () => {
-
-    scrollBtn.disabled = false
-    window.location.replace("/running-scroller/")
-
-})
-
 document.addEventListener("keydown", (event) => {
 
     if(event.code == "Space"){
